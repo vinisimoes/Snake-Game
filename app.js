@@ -19,8 +19,6 @@ window.onload = function() {
     this.setInterval(gameLoop, 1000 / 10);
 }
 
-/* OPOHA */
-
 function gameLoop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
