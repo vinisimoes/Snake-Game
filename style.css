@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+header {
+    font-family: 'Asap', sans-serif;
+    margin: 0 auto;
+    padding: 1em 0;
+    text-align: center;
+    background: rgb(75, 0, 0);
+    color: white;
+}
+
+.canvas_container {
+    margin: 1em auto;
+    /*To allow buttons inside the game!*/
+    position: relative;
+    width: min-content;
+}
+
+#canvas {
+    background: green;
+    border: 0.1em solid black;
+}
+
+.start {
+    margin: 1em auto;
+    padding: 0.2em 1em;
+    position: absolute;
+    display: inline-block;
+    background: rgb(185, 10, 10);
+    border-radius: 0.5em;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border: 0.1em solid rgb(75, 0, 0);
+    bottom: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.start:hover {
+    cursor: pointer;
+    background: rgb(134, 6, 6);
+}
+
+.highscore {
+    position: absolute;
+    padding: 0.5em;
+    top: 0;
+    left: 0;
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+
+.score {
+    position: absolute;
+    padding: 0.5em;
+    top: 0;
+    right: 0;
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+
+#end {
+    display: none;
+}
+
+.game-over {
+    margin: 1em auto;
+    padding: 0.2em 1em;
+    position: absolute;
+    display: inline-block;
+    border-radius: 0.5em;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.final-score {
+    margin: 1em auto;
+    padding: 0.2em 1em;
+    position: absolute;
+    display: inline-block;
+    border-radius: 0.5em;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    top: 6.5em;
+    left: 50%;
+    transform: translateX(-50%);
+}
